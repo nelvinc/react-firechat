@@ -1,9 +1,9 @@
 ## Bienvenidos a nuestro chat
 
 ### participantes del grupo
- 1. Lorenzo Perez (LIDER)
- 2. Miguel Rivas (colaborador)
- 3. Brany Sanchez (fork)
+ 1. Nelvin Sanchez (LIDER)
+ 2. Briant Diaz (colaborador)
+ 3. Lorenzo Perez (fork)
 
 - El flujo de trabajo con fork es cuando trabajamos con una copia del proyecto y cuando modificamos un archivo tenemos que esperar que el lider responda.
 
