@@ -1,5 +1,6 @@
 import signInWithGoogle from "./signInWithGoogle";
-import signOut from "./signOut";
+import signOut from "./logout";
+
 
 export {
     signInWithGoogle,

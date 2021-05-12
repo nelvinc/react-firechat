@@ -1,6 +1,7 @@
 import Button from "./Components/Button";
-import useAuthState from "./hooks/useAuthState";
 import { signInWithGoogle, signOut } from "./login";
+import { useAuthState} from "./hooks";
+import { firebase } from "./config/firebase";
 
 function App() {
 
