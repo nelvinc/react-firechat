@@ -1,7 +1,10 @@
 import Button from "./Components/Button";
+import useAuthState from "./hooks/useAuthState";
 import { signInWithGoogle, signOut } from "./login";
 
 function App() {
+
+  const { user, initializing } = useAuthState(firebase.auth());
 
   return (
     <div>
