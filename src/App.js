@@ -22,7 +22,7 @@ function App() {
       {
         user ? (
           <>
-            <Button onClick={signOut} >Sign In With Google</Button>
+            <Button onClick={signOut} >Logout</Button>
             <p> Bienvenidos al CHAT! </p>
             <Channel user={user} />
           </>
