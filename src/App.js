@@ -22,12 +22,30 @@ function App() {
       {
         user ? (
           <>
-            <Button onClick={signOut} >Logout</Button>
-            <p> Bienvenidos al CHAT! </p>
-            <Channel user={user} />
-          </>
-        ) : <Button onClick={signInWithGoogle} >Sign In With Google</Button>
+           <title>Firechat</title>
+        <center>
+        
+       
+        <header><h4>FIRE-CHAT</h4>
+        <Button onClick={signOut}> Logout Google</Button></header>
+        <br></br><br></br><br></br>
+        <div class="contenedor">
+        <br></br><br></br><br></br>
+        
+        <h4 class="ben">Bienvenidos al Chat!</h4>
+        <hr></hr>
+        <Channel user={user}/>
+        <br></br><br></br><br></br>
+        </div>
+        </center>
+        <br></br>
+        
+        </>
+        
+      ) : <Button onClick={signInWithGoogle} > Sign In With Google </Button>
+      
       }
+      
     </div>
   );
 }
