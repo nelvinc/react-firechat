@@ -2,6 +2,7 @@ import Button from "./Components/Button";
 import { signInWithGoogle, signOut } from "./login";
 import { useAuthState} from "./hooks";
 import { firebase } from "./config/firebase";
+import { Channel } from "./Components";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <>
             <Button onClick={signOut} >Sign In With Google</Button>
             <p> Bienvenidos al CHAT! </p>
+            <Channel user={user} />
           </>
         ) : <Button onClick={signInWithGoogle} >Sign In With Google</Button>
       }
